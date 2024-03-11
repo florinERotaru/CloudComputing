@@ -1,0 +1,62 @@
+1. GET
+    1.1 By actor name
+        http://localhost:5000/movies?actor=brad pitt
+        http://localhost:5000/movies?actor=fake actor
+    1.2 By title
+        http://localhost:5000/movies?title=titanic
+        duplicate safe
+        http://localhost:5000/movies?title=nonexistent
+        
+
+2. DELETE
+    2.1 On all resources - not allowed
+        http://localhost:5000/delete
+    2.2 By title
+        http://localhost:5000/delete?title=Titanic
+        Repeat until not found
+
+3. POST
+    3.1 Adding a complete movie
+        POST http://localhost:5000/add
+        {
+            "title": "My New Movie",
+            "year": "2030",
+            "genres": [
+            "Comedy",
+            "Horror"
+            ]
+        }
+        Try to add it again - won't work.
+    3.2 Adding an incomplete movie
+        POST http://localhost:5000/add
+        {
+            "title": "Movie without a year",
+            "genres": [
+            "Comedy",
+            "Horror"
+            ]
+        }
+
+4. PUT
+    4.1 Change the entirety
+        PUT http://localhost:5000/change
+        not allowed
+    4.2 Change something, e.g the genres
+        PUT http://localhost:5000/update
+        {
+            "title": "My New Movie",
+            "genres": [
+            "Comedy",
+            "Horror",
+            "Techno-thriller"
+            ]
+        }
+    4.3 Change something that doesnt exist
+        PUT http://localhost:5000/update
+        {
+            "title": "nonexistent movie",
+            "year": 1950
+        }
+
+
+
