@@ -6,15 +6,40 @@
     "rating": 5
   },
   {
-    "username": "flo1",
+    "username": "flo2",
     "title": "Alice",
-    "reviewText": "A mind-bending masterpiece!",
-    "rating": 5
+    "reviewText": "disappointment",
+    "rating": 3
   },
   {
-    "username": "flo1",
-    "title": "Alice",
-    "reviewText": "A mind-bending masterpiece!",
-    "rating": 5
+    "username": "flo",
+    "title": "The Adventures of Ford Fairlane",
+    "reviewText": "not bad",
+    "rating": "3"
+  },
+  {
+    "username": "flo",
+    "title": "After Dark, My Sweet",
+    "reviewText": "didn't like it",
+    "rating": "2"
+  },
+  {
+    "username": "flo",
+    "title": "American Dream",
+    "reviewText": "didn't like it",
+    "rating": "2"
+  },
+  {
+    "username": "flo",
+    "title": "American Dream",
+    "reviewText": "didn't like it",
+    "rating": "2"
+  },
+  {
+    "username": "flo",
+    "title": "American Dream",
+    "reviewText": "didn't like it",
+    "rating": "2"
   }
+
 ]

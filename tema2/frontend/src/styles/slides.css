@@ -79,3 +79,73 @@
     color: rgb(8, 176, 248); 
 
   }
+
+  .selectedMovieReviews {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .selectedMovieReviews h3 {
+    margin-bottom: 10px;
+  }
+  
+  .selectedMovieReviews ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .selectedMovieReviews li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .selectedMovieReviews li:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+  
+  .leaveReview {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .leaveReview textarea {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .leaveReview label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .leaveReview .ratingContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .leaveReview button {
+    margin-top: 10px; /* Add margin-top for spacing */
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .leaveReview button:hover {
+    background-color: #45a049;
+  }
+  
+  .leaveReview button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

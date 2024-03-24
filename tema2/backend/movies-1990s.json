@@ -6472,6 +6472,31 @@
     "thumbnail_height": 370
   },
   {
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "cast": [
+      "Stephen Baldwin",
+      "Gabriel Byrne",
+      "Benicio del Toro",
+      "Kevin Pollak",
+      "Kevin Spacey",
+      "Chazz Palminteri",
+      "Suzy Amis",
+      "Giancarlo Esposito",
+      "Pete Postlethwaite"
+    ],
+    "genres": [
+      "Noir",
+      "Mystery",
+      "Thriller"
+    ],
+    "href": "The_Usual_Suspects",
+    "extract": "The Usual Suspects is a 1995 neo-noir mystery film directed by Bryan Singer and written by Christopher McQuarrie. It stars Stephen Baldwin, Gabriel Byrne, Benicio del Toro, Kevin Pollak, Chazz Palminteri, Pete Postlethwaite, and Kevin Spacey.",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
+    "thumbnail_width": 220,
+    "thumbnail_height": 318
+  },
+  {
     "title": "Frankie and Johnny",
     "year": 1991,
     "cast": [
@@ -10635,6 +10660,23 @@
     "thumbnail_height": 367
   },
   {
+    "title": "Fight Club",
+    "year": 1999,
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ],
+    "genres": [
+      "Thriller"
+    ],
+    "href": "Fight_Club",
+    "extract": "Fight Club is a 1999 American film directed by David Fincher and starring Brad Pitt, Edward Norton, and Helena Bonham Carter. It is based on the 1996 novel of the same name by Chuck Palahniuk. Norton plays the unnamed narrator, who is discontented with his white-collar job. He forms a \"fight club\" with soap salesman Tyler Durden (Pitt), and becomes embroiled in a relationship with a mysterious woman, Marla Singer.",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+    "thumbnail_width": 220,
+    "thumbnail_height": 327
+  },
+  {
     "title": "Housesitter",
     "year": 1992,
     "cast": [
@@ -10745,6 +10787,33 @@
     "extract": "Itsy Bitsy Spider is a 1992 American animated short film directed by Matthew O'Callaghan, written by Michael O'Donoghue and stars Frank Welker as the titular spider alongside Thora Birch, Jim Carrey and Andrea Martin. Based on the eponymous rhyme, the short film was released along with the film Bébé's Kids. It was rated PG by the MPAA for sci-fi cartoon violence."
   },
   {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "cast": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Bruce Willis",
+      "Uma Thurman",
+      "Ving Rhames",
+      "Harvey Keitel",
+      "Christopher Walken",
+      "Amanda Plummer",
+      "Tim Roth",
+      "Frank Whaley",
+      "Eric Stoltz"
+    ],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "href": "Pulp_Fiction",
+    "extract": "Pulp Fiction is a 1994 American crime film written and directed by Quentin Tarantino, who conceived it with Roger Avary. Starring John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman, it tells several stories of crime in Los Angeles, California. The title refers to the pulp magazines and hardboiled crime novels popular during the mid-20th century, known for their graphic violence and punchy dialogue.",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
+    "thumbnail_width": 220,
+    "thumbnail_height": 327
+  },
+  {
     "title": "Jennifer 8",
     "year": 1992,
     "cast": [
@@ -10763,21 +10832,6 @@
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/43/Jennifer_eight.jpg",
     "thumbnail_width": 248,
     "thumbnail_height": 370
-  },
-  {
-    "title": "Jersey Girl",
-    "year": 1992,
-    "cast": [
-      "Jami Gertz",
-      "Dylan McDermott"
-    ],
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "href": "Jersey_Girl_(1992_film)",
-    "extract": "Jersey Girl is a 1992 American romantic comedy drama film directed by David Burton Morris."
   },
   {
     "title": "Juice",
