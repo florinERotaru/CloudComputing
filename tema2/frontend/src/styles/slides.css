@@ -1,0 +1,67 @@
+
+  /* Slider style */
+  .slider {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+  }
+  
+  /* Slide style */
+  .slideClass {
+    padding: 0;
+    flex: 0 0 auto;
+    margin-right: 1%; /* Adjust the margin between slides */
+  }
+  
+  /* Slide image style */
+  .slideClass img {
+    width: 100%;
+  }
+
+  .shadowedThumbnail {
+    opacity: 0.6; /* Adjust opacity as needed */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Focused thumbnail */
+  .focusedThumbnail {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .text {
+    padding-top: 2%;
+    font-family: 'Trajan', sans-serif; 
+    font-size: 30px; 
+    color: #000000; 
+     text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.5); 
+    
+  }
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trajan', sans-serif; 
+
+  }
+
+  .info-text{
+    font-family: 'Trajan', sans-serif; 
+    color: #000000; 
+    
+  }
+
+  /* Center the slide information */
+.slideContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Optional: Add styles for the slide information */
+  .slideInfo {
+    background-color: rgba(172, 167, 168, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
