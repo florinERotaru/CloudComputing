@@ -19,8 +19,9 @@ const Register = () => {
   }
   try{
     const response = await axios.post('http://localhost:5000/register', { username, password });
+    localStorage.setItem('token', response.data.token); // Store token in local storage
     setPrompt(response.data)
-    navigate('/main')
+    navigate('/main', { state: { username } });
   }catch(error){
     setPrompt(error.response.data)
   }

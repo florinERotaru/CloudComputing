@@ -13,7 +13,6 @@
     margin-right: 1%; /* Adjust the margin between slides */
   }
   
-  /* Slide image style */
   .slideClass img {
     width: 100%;
   }
@@ -23,7 +22,6 @@
     transition: opacity 0.3s ease-in-out;
   }
   
-  /* Focused thumbnail */
   .focusedThumbnail {
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
@@ -50,14 +48,12 @@
     
   }
 
-  /* Center the slide information */
 .slideContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  /* Optional: Add styles for the slide information */
+
   .slideInfo {
     background-color: rgba(172, 167, 168, 0.5);
     padding: 20px;
@@ -65,3 +61,21 @@
     margin-top: 20px;
   }
   
+  .customPrevButton {
+    position: absolute;
+    top: 20%;
+    left: 20px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(8, 176, 248); 
+  }
+  
+  .customNextButton {
+    position: absolute;
+    top: 20%;
+    right: 20px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(8, 176, 248); 
+
+  }

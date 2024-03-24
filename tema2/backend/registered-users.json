@@ -42,5 +42,13 @@
   {
     "username": "popa3",
     "password": "$2b$10$E0AeYDKFdOVuyWWnPnZob.NdUQNeDJqZ3hFAEluJUzhcxNVdl6ySu"
+  },
+  {
+    "username": "vas",
+    "password": "$2b$10$PFrh3f7osrj60j1XWWP8e.2Ow/6.cUznJ4Ln2iFgRClgzsWvI/6I6"
+  },
+  {
+    "username": "om",
+    "password": "$2b$10$WHVI/YqgAXQ/wKfmB1wmCOJSKvVX9M0R3B20h6sPxbPpPY6b8wzVS"
   }
 ]

@@ -3,9 +3,35 @@ import axios from 'axios';
 import AliceCarousel from 'react-alice-carousel';
 import './styles/slides.css';
 
+import { useNavigate, useLocation } from 'react-router-dom';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import userEvent from '@testing-library/user-event';
 
 const Main = () => {
+  const navigate = useNavigate();
+
+  // useEffect(() => {
+  //   // Check if the user is authenticated
+  //   const token = localStorage.getItem('token');
+  //   if (!token) {
+  //     // If not authenticated, redirect to login
+  //     navigate('/');
+  //   }
+  // }, [navigate]);
+  // localStorage.removeItem('token')
+  const location = useLocation();
+  
+  let username = ''; // Declare username variable outside the conditional
+
+  useEffect(() => {
+    if (location.state && location.state.username) {
+      username = location.state.username; // Assign username if found
+      console.log("Username:", username);
+    } else {
+      navigate('/');
+    }
+  }, [location.state, navigate]);
+  console.log(username)
   const [movies, setMovies] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [searchInput, setSearchInput] = useState('');
@@ -66,9 +92,9 @@ const Main = () => {
 
   const handleSlideClick = (index) => {
     setCurrentSlide(index);
-    if (carousel.current) {
-      carousel.current.slideTo(index);
-    }
+    // if (carousel.current) {
+    //   carousel.current.slideTo(index);
+    // }
   };
   
   const onSlideChanged = (e) => {
@@ -81,6 +107,8 @@ const Main = () => {
     568: { items: 1 },
     1024: { items: 4 }
   };
+  const customPrevButton = <div className="customPrevButton">{'<<<'}</div>;
+  const customNextButton = <div className="customNextButton">{'>>>'}</div>;
 
   return (
     <div>
@@ -102,6 +130,8 @@ const Main = () => {
           disableDotsControls={true}
           onSlideChanged={onSlideChanged}
           ref={carousel} // Assign the ref to the AliceCarousel component
+          renderPrevButton={() => customPrevButton}
+          renderNextButton={() => customNextButton}
         />
       </div>
     </div>

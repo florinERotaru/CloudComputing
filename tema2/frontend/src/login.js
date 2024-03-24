@@ -18,8 +18,9 @@ const Login = () => {
         return;
       }
       const response = await axios.post('http://localhost:5000/login', { username, password });
+      localStorage.setItem('token', response.data.token); // Store token in local storage
       setPrompt(response.data)
-      navigate('/main')
+      navigate('/main', { state: { username } });
       console.log("hellosss")
       
     } catch (error) {
